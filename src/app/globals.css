@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f4ee;
+  --foreground: #1d2421;
+  --muted: #66736d;
+  --line: rgba(29, 36, 33, 0.12);
+  --brand: #245c4f;
+  --brand-soft: #dfe9df;
+  --warm: #c8865b;
+  --gold: #d8b56d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(216, 181, 109, 0.14), transparent 34%),
+    radial-gradient(circle at 82% 18%, rgba(36, 92, 79, 0.12), transparent 30%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(36, 92, 79, 0.18);
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(29, 36, 33, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(29, 36, 33, 0.055) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.section-shell {
+  margin-inline: auto;
+  width: min(1120px, calc(100% - 40px));
+}
+
+@media (max-width: 640px) {
+  .section-shell {
+    width: min(100% - 28px, 1120px);
+  }
+}
