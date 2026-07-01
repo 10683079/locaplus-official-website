@@ -1,0 +1,22 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" rx="72" fill="#F7F4EE"/>
+  <path d="M165 450C165 292.6 292.6 165 450 165C607.4 165 735 292.6 735 450C735 607.4 607.4 735 450 735C292.6 735 165 607.4 165 450Z" fill="#DFE9DF"/>
+  <path d="M257 453C257 346.41 343.41 260 450 260C556.59 260 643 346.41 643 453C643 559.59 556.59 646 450 646C343.41 646 257 559.59 257 453Z" fill="#FBFAF6" stroke="#245C4F" stroke-width="3"/>
+  <path d="M450 303V602" stroke="#245C4F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M303 453H602" stroke="#245C4F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M346 347L554 559" stroke="#C8865B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M554 347L346 559" stroke="#D8B56D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="450" cy="303" r="34" fill="#245C4F"/>
+  <circle cx="450" cy="602" r="34" fill="#245C4F"/>
+  <circle cx="303" cy="453" r="34" fill="#245C4F"/>
+  <circle cx="602" cy="453" r="34" fill="#245C4F"/>
+  <circle cx="346" cy="347" r="26" fill="#C8865B"/>
+  <circle cx="554" cy="559" r="26" fill="#C8865B"/>
+  <circle cx="554" cy="347" r="26" fill="#D8B56D"/>
+  <circle cx="346" cy="559" r="26" fill="#D8B56D"/>
+  <circle cx="450" cy="453" r="72" fill="#1D2421"/>
+  <text x="450" y="438" text-anchor="middle" fill="#F7F4EE" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="2">LOCA</text>
+  <text x="450" y="493" text-anchor="middle" fill="#D8B56D" font-family="Arial, sans-serif" font-size="58" font-weight="700">+</text>
+  <path d="M152 678C224.977 757.651 329.891 807.5 446.5 807.5C563.418 807.5 668.58 757.386 741.581 677.367" stroke="#1D2421" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <path d="M157 220C230.335 140.814 335.482 91.5 452 91.5C568.098 91.5 672.908 140.459 746.2 219.143" stroke="#1D2421" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 14"/>
+</svg>
